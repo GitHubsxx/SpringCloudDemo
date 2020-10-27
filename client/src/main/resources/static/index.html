@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <title>首页</title>
+    <link rel="stylesheet" href="/layui/css/layui.css">
+    <link rel="stylesheet" href="/build/layui.css" media="all">
+</head>
+
+<ul class="layui-nav" lay-filter="filter">
+    <li class="layui-nav-item "><a href="/user/redirect/index">首页</a></li>
+    <li class="layui-nav-item"><a href="/video/findByCategory/电视剧">电视剧</a></li>
+    <li class="layui-nav-item"><a href="/video/findByCategory/综艺">综艺</a></li>
+    <li class="layui-nav-item"><a href="/video/findByCategory/电影">电影</a></li>
+    <li class="layui-nav-item"><a href="/video/findByCategory/纪录片">纪录片</a></li>
+    <li class="layui-nav-item"><a href="/video/findByCategory/新闻">新闻</a></li>
+</ul>
+
+<ul  class="layui-nav layui-layout-right layui-nav-right">
+    <li class="layui-nav-item">
+        <form  action="/video/findByName">
+            <input name="name" type="text" placeholder="请输入视频名" style="height: 30px">
+            <input type="submit" value="查 询" style="height: 30px; width:60px;">
+        </form>
+    </li>
+    <li class="layui-nav-item">
+        <a href="/login.html"><span th:if="${session.user==null}">登录</span></a>
+    </li>
+    <li class="layui-nav-item">
+        <a href="/register.html"><span th:if="${session.user==null}">注册</span></a>
+    </li>
+    <li class="layui-nav-item">
+        <a href="javascript:;">个人中心</a>
+        <dl class="layui-nav-child">
+            <dd><a href="/user/redirect/user_update">修改信息</a></dd>
+            <dd><a href="/my_order.html">我的订阅</a></dd>
+            <dd><a href="/user/logout">退出</a></dd>
+        </dl>
+    </li>
+
+</ul>
+
+<div class="layui-carousel" id="test1" style="margin-top:5px">
+    <div carousel-item>
+        <div><img src="/images/轮播图1.jpg" style="width: 100%;height: 100%"></div>
+        <div><img src="/images/轮播图2.jpg" style="width: 100%;height: 100%"></div>
+        <div><img src="/images/轮播图3.jpg" style="width: 100%;height: 100%"></div>
+        <div><img src="/images/轮播图4.jpg" style="width: 100%;height: 100%"></div>
+    </div>
+</div>
+
+
+<script src="/layui/layui.js"></script>
+<script>
+    //注意：导航 依赖 element 模块，否则无法进行功能性操作
+    layui.use('element', function(){
+        var element = layui.element;
+
+        //…
+    });
+
+    layui.use('carousel', function(){
+        var carousel = layui.carousel;
+        //建造实例
+        carousel.render({
+            elem: '#test1'
+            ,width: '100%' //设置容器宽度
+            ,height: '550px'
+            ,arrow: 'always' //始终显示箭头
+            //,anim: 'updown' //切换动画方式
+        });
+    });
+</script>
+</body>
+</html>
+

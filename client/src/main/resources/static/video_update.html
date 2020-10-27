@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="/layui/css/layui.css" media="all">
+</head>
+<body>
+<div class="layui-container" style="margin-top: 20px;">
+
+    <div class="layui-container" style="width: 500px;height: 330px;">
+        <form class="layui-form" action="/video/update" method="post">
+            <div class="layui-form-item" hidden="hidden">
+                <label class="layui-form-label">编号：</label>
+                <div class="layui-inline">
+                    <input type="text" name="id" th:value="${video.id}" lay-verify="required"   class="layui-input">
+                </div>
+            </div>
+            <div class="layui-form-item">
+                <div class="layui-input-block">
+                    <img th:src="${video.imgurl}" width="165px" height="220px">
+                </div>
+            </div>
+            <div class="layui-form-item">
+                <label class="layui-form-label">视频名称:</label>
+                <div class="layui-input-block">
+                    <input type="text" name="name" th:value="${video.name}" required  lay-verify="required"  autocomplete="off" class="layui-input">
+                </div>
+            </div>
+            <div class="layui-form-item">
+                <label class="layui-form-label">类别:</label>
+                <div class="layui-input-block">
+                    <select name="category" lay-verify="required">
+                        <option th:text="${video.category}" selected></option>
+                        <option th:unless="${video.category == '电视剧'}">电视剧</option>
+                        <option th:unless="${video.category == '电影'}">电影</option>
+                        <option th:unless="${video.category == '综艺'}">综艺</option>
+                        <option th:unless="${video.category == '纪录片'}">纪录片</option>
+                        <option th:unless="${video.category == '新闻'}">新闻</option>
+                    </select>
+                </div>
+            </div>
+            <div class="layui-form-item layui-form-text">
+                <label class="layui-form-label">描述:</label>
+                <div class="layui-input-block">
+                    <textarea name="description" th:text="${video.description}" placeholder="请输入内容" class="layui-textarea"></textarea>
+                </div>
+            </div>
+            <div class="layui-form-item">
+                <button class="layui-btn" lay-submit="" lay-filter="demo2" style="margin-left: 160px;">提交</button>
+            </div>
+        </form>
+    </div>
+</div>
+<script src="/layui/layui.js" charset="utf-8"></script>
+<script>
+    layui.use(['form', 'element'], function(){
+
+    });
+</script>
+</body>
+</html>

@@ -1,0 +1,11 @@
+server:
+  port: 10086 # \u7AEF\u53E3
+spring:
+  application:
+    name: eureka-server # \u5E94\u7528\u540D\u79F0\uFF0C\u4F1A\u5728Eureka\u4E2D\u663E\u793A
+eureka:
+  client:
+    service-url: # EurekaServer\u7684\u5730\u5740\uFF0C\u73B0\u5728\u662F\u81EA\u5DF1\u7684\u5730\u5740\uFF0C\u5982\u679C\u662F\u96C6\u7FA4\uFF0C\u9700\u8981\u52A0\u4E0A\u5176\u5B83Server\u7684\u5730\u5740\u3002
+      defaultZone: http://localhost:${server.port}/eureka
+    fetch-registry: false #false 表示自己就是注册中心，我的职责是维护服务实例，并不需要去检索服务
+    register-with-eureka: false # 表示不向注册中心注册自己

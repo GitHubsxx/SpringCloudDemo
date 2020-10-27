@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="/layui/css/layui.css" media="all">
+</head>
+<body>
+
+    <ul class="layui-nav" lay-filter="filter">
+        <li class="layui-nav-item "><a href="/user/redirect/index">首页</a></li>
+        <li class="layui-nav-item"><a href="/video/findByCategory/电视剧">电视剧</a></li>
+        <li class="layui-nav-item"><a href="/video/findByCategory/综艺">综艺</a></li>
+        <li class="layui-nav-item"><a href="/video/findByCategory/电影">电影</a></li>
+        <li class="layui-nav-item"><a href="/video/findByCategory/纪录片">纪录片</a></li>
+        <li class="layui-nav-item"><a href="/video/findByCategory/新闻">新闻</a></li>
+    </ul>
+
+    <ul  class="layui-nav layui-layout-right layui-nav-right">
+        <li class="layui-nav-item">
+            <form  action="/video/findByName">
+                <input name="name" type="text" placeholder="请输入视频名" style="height: 30px">
+                <input type="submit" value="查 询" style="height: 30px; width:60px;">
+            </form>
+        </li>
+        <li class="layui-nav-item">
+            <a href="/login.html"><span th:if="${session.user==null}">登录</span></a>
+        </li>
+        <li class="layui-nav-item">
+            <a href="/register.html"><span th:if="${session.user==null}">注册</span></a>
+        </li>
+        <li class="layui-nav-item">
+            <a href="javascript:;">个人中心</a>
+            <dl class="layui-nav-child">
+                <dd><a href="/user/redirect/user_update">修改信息</a></dd>
+                <dd><a href="/my_order.html">我的订阅</a></dd>
+                <dd><a href="/user/logout">退出</a></dd>
+            </dl>
+        </li>
+
+    </ul>
+
+    <div class="layui-container" style="margin-top: 50px;">
+
+        <div class="layui-container" style="width: 500px;height: 330px;padding-top: 60px;">
+            <form class="layui-form" action="/user/update" method="post">
+                <div class="layui-form-item" hidden="hidden">
+                    <label class="layui-form-label">编号：</label>
+                    <div class="layui-inline">
+                        <input type="text" th:value="${session.user.id}" name="id" lay-verify="id" autocomplete="off" class="layui-input">
+                    </div>
+                </div>
+                <div class="layui-form-item">
+                    <label class="layui-form-label">用户名：</label>
+                    <div class="layui-inline">
+                        <input type="text" th:value="${session.user.username}" name="username" lay-verify="username" autocomplete="off" class="layui-input">
+                    </div>
+                </div>
+                <div class="layui-form-item">
+                    <label class="layui-form-label">密码：</label>
+                    <div class="layui-inline">
+                        <input type="text" th:value="${session.user.password}" name="password" lay-verify="password"  autocomplete="off" class="layui-input">
+                    </div>
+                </div>
+                <div class="layui-form-item">
+                    <label class="layui-form-label">昵称：</label>
+                    <div class="layui-inline">
+                        <input type="text" th:value="${session.user.nickname}" name="nickname" lay-verify="required"  autocomplete="off" class="layui-input">
+                    </div>
+                </div>
+                <div class="layui-form-item">
+                    <label class="layui-form-label">性别：</label>
+                    <div class="layui-input-inline">
+                        <input type="radio" th:value="${session.user.gender}" th:title="${session.user.gender}" name="gender" value="男" title="男" checked="">
+                        <input type="radio" th:if="${session.user.gender!='男'}" name="gender" value="男" title="男">
+                        <input type="radio" th:if="${session.user.gender!='女'}" name="gender" value="女" title="女">
+                    </div>
+                </div>
+                <div class="layui-form-item">
+                    <label class="layui-form-label">联系电话：</label>
+                    <div class="layui-inline">
+                        <input type="text" th:value="${session.user.telephone}" name="telephone" lay-verify="telephone"  autocomplete="off" class="layui-input">
+                    </div>
+                </div>
+                <div class="layui-form-item">
+                    <button class="layui-btn" lay-submit="" style="margin-left: 160px;">提交</button>
+                </div>
+            </form>
+        </div>
+    </div>
+    <script src="/layui/layui.js" charset="utf-8"></script>
+    <script>
+        layui.use(['form', 'element'], function(){
+            var form = layui.form;
+            var element = layui.element;
+
+            //自定义验证规则
+            form.verify({
+                username: function(value){
+                    if(value.length == 0){
+                        return "用户名不能为空";
+                    }
+                },
+                password: [/^[A-Za-z0-9]+$/,"密码必须由数字和字母组成"],
+                telephone: [/^(0|86|17951)?(13[0-9]|15[012356789]|17[678]|18[0-9]|14[57])[0-9]{8}$/,"请输入正确的电话"]
+            });
+
+        });
+    </script>
+</body>
+</html>

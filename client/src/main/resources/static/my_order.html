@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="/layui/css/layui.css" media="all">
+</head>
+<body class="layui-layout-body">
+
+<ul class="layui-nav" lay-filter="filter">
+    <li class="layui-nav-item "><a href="/user/redirect/index">首页</a></li>
+    <li class="layui-nav-item"><a href="/video/findByCategory/电视剧">电视剧</a></li>
+    <li class="layui-nav-item"><a href="/video/findByCategory/综艺">综艺</a></li>
+    <li class="layui-nav-item"><a href="/video/findByCategory/电影">电影</a></li>
+    <li class="layui-nav-item"><a href="/video/findByCategory/纪录片">纪录片</a></li>
+    <li class="layui-nav-item"><a href="/video/findByCategory/新闻">新闻</a></li>
+</ul>
+
+<ul  class="layui-nav layui-layout-right layui-nav-right">
+    <li class="layui-nav-item">
+        <form  action="/video/findByName">
+            <input name="name" type="text" placeholder="请输入视频名" style="height: 30px">
+            <input type="submit" value="查 询" style="height: 30px; width:60px;">
+        </form>
+    </li>
+    <li class="layui-nav-item">
+        <a href="javascript:;">个人中心</a>
+        <dl class="layui-nav-child">
+            <dd><a href="/user/redirect/user_update">修改信息</a></dd>
+            <dd><a href="/my_order.html">我的订阅</a></dd>
+            <dd><a href="/user/logout">退出</a></dd>
+        </dl>
+    </li>
+
+</ul>
+
+<div class="layui-container" style="margin-top:20px;width: 750px;">
+
+    <table class="layui-hide" id="test" style="width: 300px" lay-filter="test"></table>
+    <script type="text/html" id="barDemo">
+        <a class="layui-btn layui-btn-danger layui-btn-xs" lay-event="del">删除</a>
+    </script>
+    <script src="/layui/layui.js" charset="utf-8"></script>
+    <script>
+        layui.use('element', function(){
+            var element = layui.element;
+
+            //…
+        });
+
+        layui.use('table', function(){
+            var table = layui.table;
+
+            table.render({
+                elem: '#test'
+                ,url:'/order/findByName'
+                ,title: '订单管理'
+                ,page: true
+                ,limits: [3,5,8,10]
+                ,limit: 10
+                ,cols: [
+                    [
+                        {field:'id', width:140, title: '订单编号', sort: true}
+                        ,{field:'name', width:140, title: '视频名称',templet:function(data){
+                            return data.video.name
+                        }}
+                        ,{field:'category', width:140, title: '订阅用户',templet:function(data){
+                            return data.user.username
+                        }}
+                        ,{field:'date', width:300, title: '订单时间'}
+                        ,{fixed: 'right', title:'操作', toolbar: '#barDemo', width:120}
+                ]
+                ]
+            });
+
+            //监听行工具事件
+            table.on('tool(test)', function(obj){
+                var data = obj.data;
+                if(obj.event === 'del'){
+                    layer.confirm('确定要删除吗？', function(index){
+                        window.location.href="/order/delete1/"+data.id;
+                        layer.close(index);
+                    });
+                }
+            });
+        });
+    </script>
+
+</div>
+</body>
+</html>

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.scc.dao.OrderDao">
+
+    <resultMap id="orderMap" type="Order">
+        <id property="id" column="id"></id>
+        <result property="date" column="date"></result>
+        <!--配置user的内容-->
+        <association property="user" column="uid" javaType="User">
+            <id property="id" column="uid"></id>
+            <result property="username" column="username" ></result>
+            <result property="password" column="password" ></result>
+            <result property="gender" column="gender" ></result>
+            <result property="telephone" column="telephone" ></result>
+        </association>
+        <!--配置vido的内容-->
+        <association property="video" column="vid" javaType="Video">
+            <id property="id" column="vid"></id>
+            <result property="name" column="name" ></result>
+            <result property="category" column="category" ></result>
+            <result property="imgurl" column="imgurl" ></result>
+            <result property="description" column="description" ></result>
+        </association>
+    </resultMap>
+
+    <insert id="save">
+        insert into orders(uid,vid) values(#{param1},#{param2})
+    </insert>
+
+    <select id="count" parameterType="String" resultType="int">
+        select count(*)
+        from orders,user
+        where orders.uid=user.id and username=#{username}
+    </select>
+
+    <select id="total" resultType="int">
+        select count(*) from orders
+    </select>
+
+    <select id="findAll" resultMap="orderMap">
+        select orders.id,orders.date,video.id vid,name,user.id uid,username
+        from orders,video,user
+        where orders.uid=user.id and orders.vid=video.id
+        limit ${(param1 - 1) * param2},#{param2}
+    </select>
+
+    <select id="findByName" resultMap="orderMap">
+        select orders.id,orders.date,video.id vid,name,user.id uid,username
+        from orders,video,user
+        where orders.uid=user.id and orders.vid=video.id and username=#{param3}
+        limit ${(param1 - 1) * param2},#{param2}
+    </select>
+
+    <delete id="delete" parameterType="Integer">
+        delete from orders where id=#{id}
+    </delete>
+
+</mapper>

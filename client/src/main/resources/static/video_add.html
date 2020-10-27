@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="/layui/css/layui.css" media="all">
+</head>
+<body>
+<div class="layui-container" style="margin-top: 50px;">
+
+    <div class="layui-container" style="width: 500px;height: 330px;padding-top: 60px;">
+        <form class="layui-form" action="/video/save" method="post">
+            <div class="layui-form-item">
+                <label class="layui-form-label">视频名:</label>
+                <div class="layui-input-block">
+                    <input type="text" name="name" required  lay-verify="required"  autocomplete="off" class="layui-input">
+                </div>
+            </div>
+            <div class="layui-form-item">
+                <label class="layui-form-label">类别:</label>
+                <div class="layui-input-block">
+                    <select name="category" lay-verify="required">
+                        <option value=""></option>
+                        <option>电视剧</option>
+                        <option>电影</option>
+                        <option>综艺</option>
+                        <option>纪录片</option>
+                        <option>新闻</option>
+                    </select>
+                </div>
+            </div>
+            <div class="layui-form-item layui-form-text">
+                <label class="layui-form-label">描述:</label>
+                <div class="layui-input-block">
+                    <textarea name="description" placeholder="请输入内容" class="layui-textarea"></textarea>
+                </div>
+            </div>
+            <br/>
+            <div class="layui-form-item">
+                <button class="layui-btn" lay-submit="" lay-filter="demo2" style="margin-left: 160px;">提交</button>
+                <button type="reset" class="layui-btn layui-btn-primary">重置</button>
+            </div>
+        </form>
+    </div>
+</div>
+<script src="/layui/layui.js" charset="utf-8"></script>
+<script>
+    layui.use(['form', 'element'], function(){
+    });
+</script>
+</body>
+</html>
