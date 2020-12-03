@@ -3,6 +3,7 @@ package com.scc.controller;
 import com.scc.domain.Video;
 import com.scc.domain.VideoVo;
 import com.scc.fegin.VideoFegin;
+import com.scc.log.annotation.LogRecord;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
@@ -55,7 +56,7 @@ public class VideoController {
         model.addAttribute("video", video);
         return "video_details";
     }
-
+    @LogRecord(system="111",module = "222")
     @GetMapping("/findByCategory/{category}")
     public String findByCategory(@PathVariable("category") String category,Model model){
         List<Video> videos=videoFegin.finByCategory(category);

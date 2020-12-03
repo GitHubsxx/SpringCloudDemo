@@ -2,6 +2,7 @@ package com.scc.controller;
 
 import com.scc.domain.User;
 import com.scc.fegin.UserFegin;
+import com.scc.log.annotation.UserSession;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.*;
@@ -21,7 +22,11 @@ public class UserController {
        User user=userFegin.login(username,password);
        String target=null;
        if(user!=null){
+           UserSession userSession = new UserSession();
+           userSession.setUserId(user.getId().toString());
+           userSession.setUserName(user.getUsername());
            session.setAttribute("user", user);
+           session.setAttribute("userSession", userSession);
            if(user.getRole().equals("admin")){
                target="main";
            }else{

@@ -52,6 +52,12 @@
 			<artifactId>lombok</artifactId>
 			<version>1.16.22</version>
 		</dependency>
+		<!--solr-->
+		<dependency>
+			<groupId>org.apache.solr</groupId>
+			<artifactId>solr-solrj</artifactId>
+			<version>4.7.2</version>
+		</dependency>
 	</dependencies>
 
 	<dependencyManagement>
