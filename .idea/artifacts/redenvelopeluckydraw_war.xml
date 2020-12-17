@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="redenvelopeluckydraw:war">
+    <output-path>$PROJECT_DIR$/redenvelopeluckydraw/target</output-path>
+    <root id="archive" name="redenvelopeluckydraw-0.0.1-SNAPSHOT.war">
+      <element id="artifact" artifact-name="redenvelopeluckydraw:war exploded" />
+    </root>
+  </artifact>
+</component>

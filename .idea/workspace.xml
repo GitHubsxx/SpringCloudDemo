@@ -2,104 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7a601d39-b9f1-47d3-afef-96183c0534f2" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_rabbitmq_amqp_client_5_9_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_io_commons_io_2_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_lettuce_lettuce_core_5_3_3_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_buffer_4_1_51_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_codec_4_1_51_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_common_4_1_51_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_handler_4_1_51_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_resolver_4_1_51_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_transport_4_1_51_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_13.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__log4j_log4j_1_2_16.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpmime_4_5_12.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_solr_solr_solrj_4_7_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_zookeeper_zookeeper_3_4_5.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_woodstox_wstx_asl_3_2_7.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_2_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_noggit_noggit_0_5.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_amqp_spring_amqp_2_2_10_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_amqp_spring_rabbit_2_2_10_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_amqp_2_3_3_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_data_redis_2_3_3_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_commons_2_3_3_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_keyvalue_2_3_3_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_redis_2_3_3_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_retry_spring_retry_1_2_5_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_messaging_5_2_8_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_oxm_5_2_8_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/main/java/com/scc/controller/RedisController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/main/java/com/scc/fegin/RedisFegin.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/main/java/com/scc/log/annotation/Constants.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/main/java/com/scc/log/annotation/IPUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/main/java/com/scc/log/annotation/LogRecord.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/main/java/com/scc/log/annotation/LogRecordAOP.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/main/java/com/scc/log/annotation/OperaterLogVo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/main/java/com/scc/log/annotation/Result.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/main/java/com/scc/log/annotation/UserSession.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/main/java/com/scc/log/aop/CommonLog.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/main/java/com/scc/solr/SolrApi.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/main/java/com/scc/solr/SolrConnectionPool.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rabbitMQ/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rabbitMQ/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rabbitMQ/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rabbitMQ/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rabbitMQ/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rabbitMQ/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rabbitMQ/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rabbitMQ/src/main/java/com/scc/Config/RabbitConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rabbitMQ/src/main/java/com/scc/RabbitApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rabbitMQ/src/main/java/com/scc/controller/RabbitMQController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rabbitMQ/src/main/java/com/scc/domain/Video.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rabbitMQ/src/main/java/com/scc/domain/VideoVo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rabbitMQ/src/main/java/com/scc/rabbitMQ/Receiver.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rabbitMQ/src/main/java/com/scc/rabbitMQ/Send.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rabbitMQ/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rabbitMQ/src/main/resources/mapper/VideoMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rabbitMQ/src/test/java/com/scc/video/RabbitApplicationTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/redis/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/redis/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/redis/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/redis/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/redis/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/redis/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/redis/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/redis/src/main/java/com/scc/RedisApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/redis/src/main/java/com/scc/config/RedisConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/redis/src/main/java/com/scc/controller/RedisController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/redis/src/main/java/com/scc/dao/VideoDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/redis/src/main/java/com/scc/domain/Video.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/redis/src/main/java/com/scc/domain/VideoVo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/redis/src/main/java/com/scc/service/IVideoService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/redis/src/main/java/com/scc/service/impl/VideoService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/redis/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/redis/src/main/resources/mapper/VideoMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/redis/src/test/java/com/scc/video/RedisApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/redenvelopeluckydraw_war.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/redenvelopeluckydraw_war_exploded.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_netflix_eureka_server_unknown.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/redenvelopeluckydraw/src/test/java/com/scc/redpac/Test1.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_io_commons_io_2_2.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/client/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/main/java/com/scc/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/main/java/com/scc/controller/UserController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/main/java/com/scc/controller/VideoController.java" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/main/java/com/scc/controller/VideoController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/main/java/com/scc/domain/Order.java" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/main/java/com/scc/domain/Order.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/main/java/com/scc/domain/OrderVo.java" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/main/java/com/scc/domain/OrderVo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/main/java/com/scc/domain/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/main/java/com/scc/domain/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/main/java/com/scc/domain/Video.java" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/main/java/com/scc/domain/Video.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/main/java/com/scc/domain/VideoVo.java" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/main/java/com/scc/domain/VideoVo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/main/resources/static/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/main/resources/static/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/eurekaserver/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/eurekaserver/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/order/src/main/java/com/scc/domain/Order.java" beforeDir="false" afterPath="$PROJECT_DIR$/order/src/main/java/com/scc/domain/Order.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/order/src/main/java/com/scc/domain/OrderVo.java" beforeDir="false" afterPath="$PROJECT_DIR$/order/src/main/java/com/scc/domain/OrderVo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/order/src/main/java/com/scc/domain/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/order/src/main/java/com/scc/domain/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/order/src/main/java/com/scc/domain/Video.java" beforeDir="false" afterPath="$PROJECT_DIR$/order/src/main/java/com/scc/domain/Video.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user/src/main/java/com/scc/domain/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/user/src/main/java/com/scc/domain/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/video/src/main/java/com/scc/domain/Video.java" beforeDir="false" afterPath="$PROJECT_DIR$/video/src/main/java/com/scc/domain/Video.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/video/src/main/java/com/scc/domain/VideoVo.java" beforeDir="false" afterPath="$PROJECT_DIR$/video/src/main/java/com/scc/domain/VideoVo.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/eurekaserver/target/" />
     <ignored path="$PROJECT_DIR$/order/target/" />
@@ -108,6 +19,7 @@
     <ignored path="$PROJECT_DIR$/user/target/" />
     <ignored path="$PROJECT_DIR$/redis/target/" />
     <ignored path="$PROJECT_DIR$/rabbitMQ/target/" />
+    <ignored path="$PROJECT_DIR$/redenvelopeluckydraw/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -117,29 +29,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/client/pom.xml">
+      <file leaf-file-name="Test.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/redenvelopeluckydraw/src/test/java/com/scc/redpac/Test.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1800">
-              <caret line="60" column="19" selection-start-line="60" selection-start-column="19" selection-end-line="60" selection-end-column="19" />
+            <state relative-caret-position="235">
+              <caret line="23" column="9" lean-forward="true" selection-start-line="23" selection-start-column="9" selection-end-line="23" selection-end-column="9" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="LogRecordAOP.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/client/src/main/java/com/scc/log/annotation/LogRecordAOP.java">
+      <file leaf-file-name="Test1.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/redenvelopeluckydraw/src/test/java/com/scc/redpac/Test1.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1890">
-              <caret line="74" column="1" selection-start-line="14" selection-end-line="74" selection-end-column="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SolrApi.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/client/src/main/java/com/scc/solr/SolrApi.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1470">
-              <caret line="64" column="52" selection-end-line="213" />
+            <state relative-caret-position="235">
+              <caret line="9" column="50" selection-start-line="9" selection-start-column="25" selection-end-line="9" selection-end-column="50" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -147,11 +50,20 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SolrConnectionPool.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/client/src/main/java/com/scc/solr/SolrConnectionPool.java">
+      <file leaf-file-name="TestGet.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/redenvelopeluckydraw/src/test/java/com/scc/redpac/TestGet.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3150">
-              <caret line="108" column="52" selection-start-line="108" selection-start-column="52" selection-end-line="108" selection-end-column="52" />
+            <state relative-caret-position="191">
+              <caret line="18" column="57" selection-start-line="18" selection-start-column="57" selection-end-line="18" selection-end-column="57" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TestSave.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/redenvelopeluckydraw/src/test/java/com/scc/redpac/TestSave.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="180">
+              <caret line="15" column="26" lean-forward="true" selection-start-line="15" selection-start-column="26" selection-end-line="15" selection-end-column="26" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -159,56 +71,51 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/eurekaserver/pom.xml">
+      <file leaf-file-name="TestUpdate.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/redenvelopeluckydraw/src/test/java/com/scc/redpac/TestUpdate.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="25" column="44" lean-forward="true" selection-start-line="25" selection-start-column="12" selection-end-line="25" selection-end-column="44" />
+            <state relative-caret-position="130">
+              <caret line="24" column="38" lean-forward="true" selection-start-line="24" selection-start-column="38" selection-end-line="24" selection-end-column="38" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="application.yml" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/video/src/main/resources/application.yml">
+      <file leaf-file-name="RedPacketService.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/redenvelopeluckydraw/src/main/java/com/scc/redpac/service/impl/RedPacketService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="10" column="24" selection-start-line="10" selection-start-column="16" selection-end-line="10" selection-end-column="24" />
+            <state relative-caret-position="259">
+              <caret line="132" column="58" selection-start-line="132" selection-start-column="46" selection-end-line="132" selection-end-column="58" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="UserController.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/client/src/main/java/com/scc/controller/UserController.java">
+      <file leaf-file-name="Test3.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/redenvelopeluckydraw/src/test/java/com/scc/redpac/Test3.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="630">
-              <caret line="28" column="58" selection-start-line="28" selection-start-column="58" selection-end-line="28" selection-end-column="58" />
+            <state relative-caret-position="255">
+              <caret line="9" column="45" selection-start-line="9" selection-start-column="37" selection-end-line="9" selection-end-column="45" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Constants.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/client/src/main/java/com/scc/log/annotation/Constants.java">
+      <file leaf-file-name="SnowflakeIdWorker.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/redenvelopeluckydraw/src/main/java/com/scc/redpac/utils/SnowflakeIdWorker.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="3" column="10" selection-start-line="3" selection-start-column="10" selection-end-line="3" selection-end-column="10" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="LogRecord.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/client/src/main/java/com/scc/log/annotation/LogRecord.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="7" selection-start-line="7" selection-end-line="25" selection-end-column="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="OperaterLogVo.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/client/src/main/java/com/scc/log/annotation/OperaterLogVo.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="4" column="5" selection-start-line="4" selection-start-column="5" selection-end-line="4" selection-end-column="5" />
+            <state relative-caret-position="4050">
+              <caret line="135" column="34" selection-start-line="135" selection-start-column="34" selection-end-line="135" selection-end-column="34" />
+              <folding>
+                <element signature="e#4326#4327#0" expanded="true" />
+                <element signature="e#4375#4376#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -227,6 +134,8 @@
     <findStrings>
       <find>findByCategory</find>
       <find>HttpSolrClient</find>
+      <find>varchar</find>
+      <find>@PathVariable</find>
     </findStrings>
     <replaceStrings>
       <replace>HttpSolrServer</replace>
@@ -238,37 +147,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/redis/pom.xml" />
-        <option value="$PROJECT_DIR$/redis/src/main/java/com/scc/domain/VideoVo.java" />
-        <option value="$PROJECT_DIR$/redis/src/main/java/com/scc/domain/Video.java" />
-        <option value="$PROJECT_DIR$/client/src/main/java/com/scc/domain/Order.java" />
-        <option value="$PROJECT_DIR$/client/src/main/java/com/scc/domain/OrderVo.java" />
-        <option value="$PROJECT_DIR$/client/src/main/java/com/scc/domain/User.java" />
-        <option value="$PROJECT_DIR$/client/src/main/java/com/scc/domain/Video.java" />
-        <option value="$PROJECT_DIR$/client/src/main/java/com/scc/domain/VideoVo.java" />
-        <option value="$PROJECT_DIR$/order/src/main/java/com/scc/domain/Order.java" />
-        <option value="$PROJECT_DIR$/order/src/main/java/com/scc/domain/OrderVo.java" />
-        <option value="$PROJECT_DIR$/order/src/main/java/com/scc/domain/User.java" />
-        <option value="$PROJECT_DIR$/order/src/main/java/com/scc/domain/Video.java" />
-        <option value="$PROJECT_DIR$/user/src/main/java/com/scc/domain/User.java" />
-        <option value="$PROJECT_DIR$/video/src/main/java/com/scc/domain/Video.java" />
-        <option value="$PROJECT_DIR$/video/src/main/java/com/scc/domain/VideoVo.java" />
-        <option value="$PROJECT_DIR$/redis/src/main/java/com/scc/RedisApplication.java" />
-        <option value="$PROJECT_DIR$/redis/src/main/java/com/scc/config/RestTemplate.java" />
-        <option value="$PROJECT_DIR$/redis/src/main/java/com/scc/config/RedisConfig.java" />
-        <option value="$PROJECT_DIR$/client/src/main/java/com/scc/fegin/RedisFegin.java" />
-        <option value="$PROJECT_DIR$/client/src/main/java/com/scc/controller/RedisController.java" />
-        <option value="$PROJECT_DIR$/client/src/main/resources/static/index.html" />
-        <option value="$PROJECT_DIR$/redis/src/main/resources/application.yml" />
-        <option value="$PROJECT_DIR$/client/src/main/java/com/scc/log/LogOption.java" />
-        <option value="$PROJECT_DIR$/client/src/main/java/com/scc/log/WebLogDetailAspect.java" />
-        <option value="$PROJECT_DIR$/client/src/main/java/com/scc/log/annotation/Result.java" />
-        <option value="$PROJECT_DIR$/client/src/main/java/com/scc/log/annotation/OperaterLogVo.java" />
-        <option value="$PROJECT_DIR$/client/src/main/java/com/scc/log/annotation/UserSession.java" />
-        <option value="$PROJECT_DIR$/client/src/main/java/com/scc/log/annotation/IPUtils.java" />
-        <option value="$PROJECT_DIR$/client/src/main/java/com/scc/controller/UserController.java" />
-        <option value="$PROJECT_DIR$/client/src/main/java/com/scc/log/annotation/Constants.java" />
-        <option value="$PROJECT_DIR$/client/src/main/java/com/scc/log/annotation/LogRecord.java" />
         <option value="$PROJECT_DIR$/client/src/main/java/com/scc/log/aop/CommonLog.java" />
         <option value="$PROJECT_DIR$/client/src/main/java/com/scc/controller/VideoController.java" />
         <option value="$PROJECT_DIR$/client/src/main/java/com/scc/log/annotation/LogRecordAOP.java" />
@@ -289,6 +167,37 @@
         <option value="$PROJECT_DIR$/client/src/main/java/com/scc/solr/SolrConnectionPool.java" />
         <option value="$PROJECT_DIR$/client/src/main/java/com/scc/solr/SolrApi.java" />
         <option value="$PROJECT_DIR$/eurekaserver/pom.xml" />
+        <option value="$PROJECT_DIR$/redenvelopeluckydraw/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/redenvelopeluckydraw/src/main/java/com/scc/redenvelopeluckydraw/config/RedisConfig.java" />
+        <option value="$PROJECT_DIR$/redenvelopeluckydraw/src/main/java/com/scc/redenvelopeluckydraw/controller/RedisController.java" />
+        <option value="$PROJECT_DIR$/redenvelopeluckydraw/src/main/java/com/scc/redenvelopeluckydraw/utils/SnowflakeDistributeId.java" />
+        <option value="$PROJECT_DIR$/redenvelopeluckydraw/src/main/java/com/scc/redenvelopeluckydraw/dao/RedPacketDao.java" />
+        <option value="$PROJECT_DIR$/redenvelopeluckydraw/src/main/java/com/scc/redenvelopeluckydraw/dao/RedPacketInfoDao.java" />
+        <option value="$PROJECT_DIR$/redenvelopeluckydraw/src/main/java/com/scc/redenvelopeluckydraw/dao/RedPacketRecordDao.java" />
+        <option value="$PROJECT_DIR$/redenvelopeluckydraw/src/main/java/com/scc/redenvelopeluckydraw/service/IRedPacketService.java" />
+        <option value="$PROJECT_DIR$/redenvelopeluckydraw/src/main/java/com/scc/redenvelopeluckydraw/controller/RedPacketController.java" />
+        <option value="$PROJECT_DIR$/redenvelopeluckydraw/src/main/java/com/scc/redenvelopeluckydraw/service/impl/RedPacketService.java" />
+        <option value="$PROJECT_DIR$/client/src/main/java/com/scc/domain/RedPacketInfo.java" />
+        <option value="$PROJECT_DIR$/client/src/main/java/com/scc/fegin/RedPacketFegin.java" />
+        <option value="$PROJECT_DIR$/client/src/main/java/com/scc/controller/RedPacketController.java" />
+        <option value="$PROJECT_DIR$/redenvelopeluckydraw/src/main/java/com/scc/redenvelopeluckydraw/domain/RedPacketInfo.java" />
+        <option value="$PROJECT_DIR$/redenvelopeluckydraw/src/main/java/com/scc/redenvelopeluckydraw/domain/RedPacketRecord.java" />
+        <option value="$PROJECT_DIR$/redenvelopeluckydraw/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/redenvelopeluckydraw/src/main/java/com/scc/redenvelopeluckydraw/RedPacketApplication.java" />
+        <option value="$PROJECT_DIR$/redenvelopeluckydraw/src/test/java/com/scc/redenvelopeluckydraw/RedenvelopeluckydrawApplicationTests.java" />
+        <option value="$PROJECT_DIR$/redenvelopeluckydraw/src/test/java/com/scc/redenvelopeluckydraw/Test.java" />
+        <option value="$PROJECT_DIR$/redenvelopeluckydraw/src/test/java/com/scc/redpac/TestSave.java" />
+        <option value="$PROJECT_DIR$/redenvelopeluckydraw/pom.xml" />
+        <option value="$PROJECT_DIR$/redenvelopeluckydraw/src/main/java/com/scc/redpac/domain/RedPacketInfo.java" />
+        <option value="$PROJECT_DIR$/redenvelopeluckydraw/src/main/java/com/scc/redpac/domain/RedPacketRecord.java" />
+        <option value="$PROJECT_DIR$/redenvelopeluckydraw/src/test/java/com/scc/redpac/Test.java" />
+        <option value="$PROJECT_DIR$/redenvelopeluckydraw/src/main/java/com/scc/redpac/utils/SnowflakeDistributeId.java" />
+        <option value="$PROJECT_DIR$/redenvelopeluckydraw/src/main/java/com/scc/redpac/utils/SnowflakeIdWorker.java" />
+        <option value="$PROJECT_DIR$/redenvelopeluckydraw/src/test/java/com/scc/redpac/TestGet.java" />
+        <option value="$PROJECT_DIR$/redenvelopeluckydraw/src/test/java/com/scc/redpac/Test1.java" />
+        <option value="$PROJECT_DIR$/redenvelopeluckydraw/src/test/java/com/scc/redpac/TestUpdate.java" />
+        <option value="$PROJECT_DIR$/redenvelopeluckydraw/src/test/java/com/scc/redpac/Test3.java" />
+        <option value="$PROJECT_DIR$/redenvelopeluckydraw/src/main/java/com/scc/redpac/service/impl/RedPacketService.java" />
       </list>
     </option>
   </component>
@@ -324,7 +233,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
+      <pane id="PackagesPane" />
+      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -332,12 +242,426 @@
               <item name="springCloudDemo" type="b2602c69:ProjectViewProjectNode" />
               <item name="springCloudDemo" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="springCloudDemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springCloudDemo" type="462c0819:PsiDirectoryNode" />
+              <item name="client" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springCloudDemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springCloudDemo" type="462c0819:PsiDirectoryNode" />
+              <item name="client" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springCloudDemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springCloudDemo" type="462c0819:PsiDirectoryNode" />
+              <item name="client" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springCloudDemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springCloudDemo" type="462c0819:PsiDirectoryNode" />
+              <item name="client" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springCloudDemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springCloudDemo" type="462c0819:PsiDirectoryNode" />
+              <item name="client" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springCloudDemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springCloudDemo" type="462c0819:PsiDirectoryNode" />
+              <item name="client" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="scc" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springCloudDemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springCloudDemo" type="462c0819:PsiDirectoryNode" />
+              <item name="client" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="scc" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springCloudDemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springCloudDemo" type="462c0819:PsiDirectoryNode" />
+              <item name="client" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="scc" type="462c0819:PsiDirectoryNode" />
+              <item name="domain" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springCloudDemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springCloudDemo" type="462c0819:PsiDirectoryNode" />
+              <item name="client" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="scc" type="462c0819:PsiDirectoryNode" />
+              <item name="fegin" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springCloudDemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springCloudDemo" type="462c0819:PsiDirectoryNode" />
+              <item name="redenvelopeluckydraw" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springCloudDemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springCloudDemo" type="462c0819:PsiDirectoryNode" />
+              <item name="redenvelopeluckydraw" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springCloudDemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springCloudDemo" type="462c0819:PsiDirectoryNode" />
+              <item name="redenvelopeluckydraw" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springCloudDemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springCloudDemo" type="462c0819:PsiDirectoryNode" />
+              <item name="redenvelopeluckydraw" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springCloudDemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springCloudDemo" type="462c0819:PsiDirectoryNode" />
+              <item name="redenvelopeluckydraw" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springCloudDemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springCloudDemo" type="462c0819:PsiDirectoryNode" />
+              <item name="redenvelopeluckydraw" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="scc" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springCloudDemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springCloudDemo" type="462c0819:PsiDirectoryNode" />
+              <item name="redenvelopeluckydraw" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="scc" type="462c0819:PsiDirectoryNode" />
+              <item name="redpac" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springCloudDemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springCloudDemo" type="462c0819:PsiDirectoryNode" />
+              <item name="redenvelopeluckydraw" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="scc" type="462c0819:PsiDirectoryNode" />
+              <item name="redpac" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springCloudDemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springCloudDemo" type="462c0819:PsiDirectoryNode" />
+              <item name="redenvelopeluckydraw" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="scc" type="462c0819:PsiDirectoryNode" />
+              <item name="redpac" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springCloudDemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springCloudDemo" type="462c0819:PsiDirectoryNode" />
+              <item name="redenvelopeluckydraw" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="scc" type="462c0819:PsiDirectoryNode" />
+              <item name="redpac" type="462c0819:PsiDirectoryNode" />
+              <item name="dao" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springCloudDemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springCloudDemo" type="462c0819:PsiDirectoryNode" />
+              <item name="redenvelopeluckydraw" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="scc" type="462c0819:PsiDirectoryNode" />
+              <item name="redpac" type="462c0819:PsiDirectoryNode" />
+              <item name="domain" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springCloudDemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springCloudDemo" type="462c0819:PsiDirectoryNode" />
+              <item name="redenvelopeluckydraw" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="scc" type="462c0819:PsiDirectoryNode" />
+              <item name="redpac" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springCloudDemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springCloudDemo" type="462c0819:PsiDirectoryNode" />
+              <item name="redenvelopeluckydraw" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="scc" type="462c0819:PsiDirectoryNode" />
+              <item name="redpac" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+              <item name="impl" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springCloudDemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springCloudDemo" type="462c0819:PsiDirectoryNode" />
+              <item name="redenvelopeluckydraw" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="scc" type="462c0819:PsiDirectoryNode" />
+              <item name="redpac" type="462c0819:PsiDirectoryNode" />
+              <item name="utils" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springCloudDemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springCloudDemo" type="462c0819:PsiDirectoryNode" />
+              <item name="redenvelopeluckydraw" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springCloudDemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springCloudDemo" type="462c0819:PsiDirectoryNode" />
+              <item name="redenvelopeluckydraw" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springCloudDemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springCloudDemo" type="462c0819:PsiDirectoryNode" />
+              <item name="redenvelopeluckydraw" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springCloudDemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springCloudDemo" type="462c0819:PsiDirectoryNode" />
+              <item name="redenvelopeluckydraw" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springCloudDemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springCloudDemo" type="462c0819:PsiDirectoryNode" />
+              <item name="redenvelopeluckydraw" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="scc" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springCloudDemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springCloudDemo" type="462c0819:PsiDirectoryNode" />
+              <item name="redenvelopeluckydraw" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="scc" type="462c0819:PsiDirectoryNode" />
+              <item name="redpac" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springCloudDemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springCloudDemo" type="462c0819:PsiDirectoryNode" />
+              <item name="redis" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springCloudDemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springCloudDemo" type="462c0819:PsiDirectoryNode" />
+              <item name="redis" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springCloudDemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springCloudDemo" type="462c0819:PsiDirectoryNode" />
+              <item name="redis" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springCloudDemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springCloudDemo" type="462c0819:PsiDirectoryNode" />
+              <item name="redis" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springCloudDemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springCloudDemo" type="462c0819:PsiDirectoryNode" />
+              <item name="redis" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springCloudDemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springCloudDemo" type="462c0819:PsiDirectoryNode" />
+              <item name="redis" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="scc" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springCloudDemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springCloudDemo" type="462c0819:PsiDirectoryNode" />
+              <item name="redis" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="scc" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springCloudDemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springCloudDemo" type="462c0819:PsiDirectoryNode" />
+              <item name="redis" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="scc" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springCloudDemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springCloudDemo" type="462c0819:PsiDirectoryNode" />
+              <item name="redis" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="scc" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+              <item name="impl" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springCloudDemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springCloudDemo" type="462c0819:PsiDirectoryNode" />
+              <item name="redis" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springCloudDemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springCloudDemo" type="462c0819:PsiDirectoryNode" />
+              <item name="user" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springCloudDemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springCloudDemo" type="462c0819:PsiDirectoryNode" />
+              <item name="user" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springCloudDemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springCloudDemo" type="462c0819:PsiDirectoryNode" />
+              <item name="user" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springCloudDemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springCloudDemo" type="462c0819:PsiDirectoryNode" />
+              <item name="user" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springCloudDemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springCloudDemo" type="462c0819:PsiDirectoryNode" />
+              <item name="user" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springCloudDemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springCloudDemo" type="462c0819:PsiDirectoryNode" />
+              <item name="user" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="scc" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springCloudDemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springCloudDemo" type="462c0819:PsiDirectoryNode" />
+              <item name="user" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="scc" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="AndroidView" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -347,7 +671,7 @@
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/rabbitMQ/pom.xml" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -356,6 +680,16 @@
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
     <property name="settings.editor.selected.configurable" value="preferences.keymap" />
     <property name="show.run.dashboard.notification" value="false" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.scc.domain" />
+      <recent name="com.scc.redenvelopeluckydraw.controller" />
+      <recent name="com.scc.redenvelopeluckydraw.config" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\BaiduNetdiskDownload\springCloudDemo\redenvelopeluckydraw\src\main\java\com\scc\redenvelopeluckydraw" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -369,25 +703,25 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.SolrApi">
-    <configuration name="SolrApi" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.scc.solr.SolrApi" />
-      <module name="client" />
+  <component name="RunManager" selected="JUnit.TestUpdate">
+    <configuration name="Test1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.scc.redpac.Test1" />
+      <module name="redenvelopeluckydraw" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.scc.solr.*" />
+          <option name="PATTERN" value="com.scc.redpac.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
     </configuration>
-    <configuration name="VideoService" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.scc.service.impl.VideoService" />
-      <module name="rabbitMQ" />
+    <configuration name="Test3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.scc.redpac.Test3" />
+      <module name="redenvelopeluckydraw" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.scc.service.impl.*" />
+          <option name="PATTERN" value="com.scc.redpac.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -395,18 +729,41 @@
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
-    <configuration name="RabbitApplicationTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="rabbitMQ" />
+    <configuration name="TestSave.saveRedPacket" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="redenvelopeluckydraw" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.scc.video.*" />
+          <option name="PATTERN" value="com.scc.redpac.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.scc.video" />
-      <option name="MAIN_CLASS_NAME" value="com.scc.video.RabbitApplicationTests" />
+      <option name="PACKAGE_NAME" value="com.scc.redpac" />
+      <option name="MAIN_CLASS_NAME" value="com.scc.redpac.TestSave" />
+      <option name="METHOD_NAME" value="saveRedPacket" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="TestUpdate" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="redenvelopeluckydraw" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.scc.redpac.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.scc.redpac" />
+      <option name="MAIN_CLASS_NAME" value="com.scc.redpac.TestUpdate" />
       <option name="METHOD_NAME" />
       <option name="TEST_OBJECT" value="class" />
       <option name="VM_PARAMETERS" value="-ea" />
@@ -418,42 +775,19 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="RabbitApplicationTests.contextLoads" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="rabbitMQ" />
+    <configuration name="TestUpdate.getRedPacketMoney" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="redenvelopeluckydraw" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.scc.video.*" />
+          <option name="PATTERN" value="com.scc.redpac.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.scc.video" />
-      <option name="MAIN_CLASS_NAME" value="com.scc.video.RabbitApplicationTests" />
-      <option name="METHOD_NAME" value="contextLoads" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
-    </configuration>
-    <configuration name="RabbitApplicationTests.hello" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="rabbitMQ" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.scc.video.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.scc.video" />
-      <option name="MAIN_CLASS_NAME" value="com.scc.video.RabbitApplicationTests" />
-      <option name="METHOD_NAME" value="hello" />
+      <option name="PACKAGE_NAME" value="com.scc.redpac" />
+      <option name="MAIN_CLASS_NAME" value="com.scc.redpac.TestUpdate" />
+      <option name="METHOD_NAME" value="getRedPacketMoney" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -496,6 +830,14 @@
       <module name="rabbitMQ" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.scc.RabbitApplication" />
     </configuration>
+    <configuration name="RedenvelopeluckydrawApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="redenvelopeluckydraw" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.scc.redpac.RedPacketApplication" />
+    </configuration>
+    <configuration name="RedisApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="redis" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.scc.RedisApplication" />
+    </configuration>
     <configuration name="UserApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="user" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.scc.UserApplication" />
@@ -533,19 +875,21 @@
       <item itemvalue="Spring Boot.VideoApplication" />
       <item itemvalue="Spring Boot.UserApplication" />
       <item itemvalue="Spring Boot.RabbitApplication" />
-      <item itemvalue="JUnit.RabbitApplicationTests" />
-      <item itemvalue="JUnit.RabbitApplicationTests.contextLoads" />
-      <item itemvalue="Application.VideoService" />
-      <item itemvalue="JUnit.RabbitApplicationTests.hello" />
-      <item itemvalue="Application.SolrApi" />
+      <item itemvalue="Spring Boot.RedenvelopeluckydrawApplication" />
+      <item itemvalue="Spring Boot.RedisApplication" />
+      <item itemvalue="Application.Test1" />
+      <item itemvalue="Application.Test3" />
+      <item itemvalue="JUnit.TestSave.saveRedPacket" />
+      <item itemvalue="JUnit.TestUpdate.getRedPacketMoney" />
+      <item itemvalue="JUnit.TestUpdate" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.SolrApi" />
-        <item itemvalue="JUnit.RabbitApplicationTests" />
-        <item itemvalue="JUnit.RabbitApplicationTests.hello" />
-        <item itemvalue="Application.VideoService" />
-        <item itemvalue="JUnit.RabbitApplicationTests.contextLoads" />
+        <item itemvalue="JUnit.TestUpdate" />
+        <item itemvalue="Application.Test3" />
+        <item itemvalue="JUnit.TestUpdate.getRedPacketMoney" />
+        <item itemvalue="JUnit.TestSave.saveRedPacket" />
+        <item itemvalue="Application.Test1" />
       </list>
     </recent_temporary>
   </component>
@@ -572,48 +916,66 @@
       <workItem from="1606265920775" duration="2564000" />
       <workItem from="1606468178567" duration="3025000" />
       <workItem from="1606889944120" duration="6495000" />
-      <workItem from="1606956851717" duration="2525000" />
+      <workItem from="1606956851717" duration="3334000" />
+      <workItem from="1607477857168" duration="17017000" />
+      <workItem from="1607504449668" duration="253000" />
+      <workItem from="1607561785744" duration="19811000" />
+      <workItem from="1607647277757" duration="3329000" />
+      <workItem from="1607679773837" duration="1004000" />
+      <workItem from="1607914744772" duration="9650000" />
     </task>
+    <task id="LOCAL-00001" summary="增加redis,rabbitMq,solr">
+      <created>1606976997462</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1606976997462</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="VideoApplicationTests_hello - 2020.11.19 at 16h 04m 00s.xml">
-      <configuration name="VideoApplicationTests.hello" configurationId="JUnit" />
+    <history-entry file="Test - 2020.12.11 at 17h 48m 11s.xml">
+      <configuration name="Test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="VideoApplicationTests - 2020.11.19 at 16h 06m 20s.xml">
-      <configuration name="VideoApplicationTests" configurationId="JUnit" />
+    <history-entry file="Test_test - 2020.12.11 at 17h 50m 59s.xml">
+      <configuration name="Test.test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="VideoApplicationTests - 2020.11.19 at 16h 11m 14s.xml">
-      <configuration name="VideoApplicationTests" configurationId="JUnit" />
+    <history-entry file="Test - 2020.12.11 at 17h 51m 31s.xml">
+      <configuration name="Test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="VideoApplicationTests - 2020.11.19 at 16h 13m 31s.xml">
-      <configuration name="VideoApplicationTests" configurationId="JUnit" />
+    <history-entry file="Test - 2020.12.11 at 17h 51m 44s.xml">
+      <configuration name="Test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="VideoApplicationTests - 2020.11.19 at 16h 17m 26s.xml">
-      <configuration name="VideoApplicationTests" configurationId="JUnit" />
+    <history-entry file="Test - 2020.12.11 at 17h 52m 46s.xml">
+      <configuration name="Test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="RabbitApplicationTests - 2020.11.19 at 16h 23m 26s.xml">
-      <configuration name="RabbitApplicationTests" configurationId="JUnit" />
+    <history-entry file="TestSave_saveRedPacket - 2020.12.14 at 11h 23m 58s.xml">
+      <configuration name="TestSave.saveRedPacket" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="RabbitApplicationTests - 2020.11.19 at 16h 26m 05s.xml">
-      <configuration name="RabbitApplicationTests" configurationId="JUnit" />
+    <history-entry file="TestUpdate_getRedPacketMoney - 2020.12.14 at 14h 26m 33s.xml">
+      <configuration name="TestUpdate.getRedPacketMoney" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="RabbitApplicationTests - 2020.11.19 at 16h 32m 52s.xml">
-      <configuration name="RabbitApplicationTests" configurationId="JUnit" />
+    <history-entry file="TestSave_saveRedPacket - 2020.12.14 at 15h 36m 14s.xml">
+      <configuration name="TestSave.saveRedPacket" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="RabbitApplicationTests - 2020.11.19 at 16h 37m 22s.xml">
-      <configuration name="RabbitApplicationTests" configurationId="JUnit" />
+    <history-entry file="TestUpdate_getRedPacketMoney - 2020.12.14 at 15h 37m 31s.xml">
+      <configuration name="TestUpdate.getRedPacketMoney" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestUpdate - 2020.12.14 at 16h 02m 24s.xml">
+      <configuration name="TestUpdate" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="82210000" />
+    <option name="totallyTimeSpent" value="134083000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1456" height="876" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="Event Log" order="15" sideWeight="0.13125" side_tool="true" weight="0.24254742" />
-      <window_info anchor="bottom" id="JRebel Console" order="14" sideWeight="0.131875" side_tool="true" visible="true" weight="0.19538671" />
+      <window_info anchor="bottom" id="JRebel Console" order="14" sideWeight="0.14166667" side_tool="true" visible="true" weight="0.21709634" />
       <window_info anchor="right" id="Maven Projects" order="9" weight="0.08958333" />
       <window_info anchor="bottom" id="Database Changes" order="10" show_stripe_button="false" />
       <window_info anchor="bottom" id="JRebel Executor" order="13" />
@@ -623,349 +985,73 @@
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="5" />
-      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.7534722" weight="0.21031208" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.74791664" weight="0.5753053" />
       <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Messages" order="9" sideWeight="0.49444443" weight="0.31071913" />
       <window_info anchor="right" id="Palette&#9;" order="6" />
       <window_info id="Image Layers" order="4" />
       <window_info anchor="bottom" id="Java Enterprise" order="11" />
       <window_info anchor="right" id="Capture Analysis" order="4" />
-      <window_info anchor="bottom" id="Version Control" order="12" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.868125" weight="0.385346" />
+      <window_info anchor="bottom" id="Version Control" order="12" sideWeight="0.49861112" weight="0.34056988" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.85833335" visible="true" weight="0.21709634" />
       <window_info anchor="bottom" id="Spring" order="7" />
       <window_info anchor="bottom" id="Terminal" order="8" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17847222" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.08194444" />
       <window_info anchor="right" id="Bean Validation" order="8" />
       <window_info id="Web" order="7" side_tool="true" />
       <window_info id="JRebel" order="3" side_tool="true" />
+      <window_info anchor="bottom" id="Find" order="1" sideWeight="0.49930555" weight="0.32971507" />
       <window_info anchor="right" id="Theme Preview" order="7" />
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Messages" order="9" sideWeight="0.49930555" weight="0.32971507" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" visible="true" weight="0.18472221" />
-      <window_info anchor="bottom" id="Find" order="1" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+              <option name="COLUMN_ORDER">
+                <list>
+                  <option value="0" />
+                  <option value="1" />
+                  <option value="2" />
+                  <option value="3" />
+                </list>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="增加redis,rabbitMq,solr" />
+    <option name="LAST_COMMIT_MESSAGE" value="增加redis,rabbitMq,solr" />
+  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/redis/src/main/java/com/scc/service/impl/VideoService.java</url>
-          <line>29</line>
-          <properties />
-          <option name="timeStamp" value="7" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/redis/src/main/java/com/scc/service/impl/VideoService.java</url>
-          <line>50</line>
-          <properties />
-          <option name="timeStamp" value="12" />
-        </line-breakpoint>
-      </breakpoints>
-      <option name="time" value="16" />
+      <option name="time" value="23" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/client/src/main/java/com/scc/controller/OrderController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="16" column="33" selection-start-line="16" selection-start-column="23" selection-end-line="16" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/src/main/java/com/scc/log/WebLogDetailAspect.java" />
-    <entry file="file://$PROJECT_DIR$/client/src/main/java/com/scc/log/LogOption.java" />
-    <entry file="jar://D:/repository3/org/aspectj/aspectjweaver/1.9.6/aspectjweaver-1.9.6.jar!/org/aspectj/lang/ProceedingJoinPoint.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="16" column="11" selection-start-line="16" selection-start-column="11" selection-end-line="16" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/Program Files/Java8/jdk1.8.0_181/src.zip!/javax/xml/transform/Result.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="169">
-          <caret line="33" column="17" selection-start-line="33" selection-start-column="17" selection-end-line="33" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/repository3/org/springframework/spring-web/5.2.8.RELEASE/spring-web-5.2.8.RELEASE.jar!/org/springframework/web/context/request/RequestContextHolder.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="16" column="44" selection-start-line="16" selection-start-column="44" selection-end-line="16" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/src/main/java/com/scc/log/annotation/Result.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/repository3/org/apache/tomcat/embed/tomcat-embed-core/9.0.37/tomcat-embed-core-9.0.37.jar!/javax/servlet/annotation/WebFilter.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="17" column="18" selection-start-line="17" selection-start-column="18" selection-end-line="17" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/repository3/org/apache/tomcat/embed/tomcat-embed-core/9.0.37/tomcat-embed-core-9.0.37.jar!/javax/servlet/Filter.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="186">
-          <caret line="10" column="47" selection-start-line="10" selection-start-column="35" selection-end-line="10" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/repository3/org/apache/tomcat/embed/tomcat-embed-core/9.0.37/tomcat-embed-core-9.0.37.jar!/javax/servlet/http/HttpServletRequest.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="16" column="17" selection-start-line="16" selection-start-column="17" selection-end-line="16" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/src/main/java/com/scc/log/annotation/UserSession.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="5" column="24" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/src/main/java/com/scc/filter/UserFilter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="14" column="23" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/src/main/java/com/scc/log/aop/CommonLog.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="17" selection-start-line="17" selection-end-line="17" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/src/main/java/com/scc/log/annotation/IPUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="630">
-          <caret line="21" column="81" selection-start-line="21" selection-start-column="81" selection-end-line="21" selection-end-column="81" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/src/main/java/com/scc/ClientApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/redis/src/main/java/com/scc/RedisApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="194">
-          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/repository3/org/springframework/data/spring-data-redis/2.3.3.RELEASE/spring-data-redis-2.3.3.RELEASE.jar!/org/springframework/data/redis/core/StringRedisTemplate.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2">
-          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/repository3/org/apache/httpcomponents/httpclient/4.5.12/httpclient-4.5.12.jar!/org/apache/http/impl/conn/DefaultRoutePlanner.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="480">
-          <caret line="33" column="115" selection-start-line="33" selection-start-column="115" selection-end-line="33" selection-end-column="115" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/repository3/org/springframework/spring-web/5.2.8.RELEASE/spring-web-5.2.8.RELEASE.jar!/org/springframework/web/method/support/InvocableHandlerMethod.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="271">
-          <caret line="107" selection-start-line="107" selection-end-line="107" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/redis/src/main/java/com/scc/service/impl/VideoService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="720">
-          <caret line="34" selection-start-line="34" selection-end-line="34" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/repository3/org/springframework/spring-web/5.2.8.RELEASE/spring-web-5.2.8.RELEASE.jar!/org/springframework/web/client/RestTemplate.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="172">
-          <caret line="419" selection-start-line="419" selection-end-line="419" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/rabbitMQ/src/main/java/com/scc/config/RedisConfig.java" />
-    <entry file="file://$PROJECT_DIR$/rabbitMQ/src/main/java/com/scc/service/IVideoService.java" />
-    <entry file="jar://D:/repository3/org/springframework/boot/spring-boot-test/2.3.3.RELEASE/spring-boot-test-2.3.3.RELEASE.jar!/org/springframework/boot/test/context/SpringBootTest.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="23" column="28" selection-start-line="23" selection-start-column="13" selection-end-line="23" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/src/main/java/com/scc/controller/RedisController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="236">
-          <caret line="21" column="30" selection-start-line="21" selection-start-column="30" selection-end-line="21" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/rabbitMQ/src/main/java/com/scc/service/impl/VideoService.java" />
-    <entry file="file://$PROJECT_DIR$/redis/src/main/java/com/scc/controller/RedisController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="20" column="5" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/rabbitMQ/src/main/java/com/scc/dao/VideoDao.java" />
-    <entry file="file://$PROJECT_DIR$/rabbitMQ/src/main/java/com/scc/controller/RabbitMQController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="141">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/rabbitMQ/src/main/java/com/scc/domain/VideoVo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/rabbitMQ/src/main/java/com/scc/domain/Video.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/rabbitMQ/src/main/java/com/scc/RabbitApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="6" column="19" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/rabbitMQ/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="810">
-          <caret line="27" column="46" selection-start-line="27" selection-start-column="41" selection-end-line="27" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/redis/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="630">
-          <caret line="21" column="17" selection-start-line="21" selection-start-column="16" selection-end-line="21" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/rabbitMQ/src/main/java/com/scc/rabbitMQ/Receiver.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="9" selection-start-line="9" selection-end-line="9" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/rabbitMQ/src/main/java/com/scc/Config/RabbitConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/rabbitMQ/src/main/java/com/scc/rabbitMQ/Send.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="19" selection-start-line="19" selection-end-line="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/rabbitMQ/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="630">
-          <caret line="21" column="7" selection-start-line="21" selection-start-column="7" selection-end-line="21" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/rabbitMQ/src/test/java/com/scc/video/RabbitApplicationTests.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="16" column="5" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/src/main/java/com/scc/log/annotation/Constants.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="3" column="10" selection-start-line="3" selection-start-column="10" selection-end-line="3" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/src/main/java/com/scc/log/annotation/LogRecord.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="7" selection-start-line="7" selection-end-line="25" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/src/main/java/com/scc/log/annotation/OperaterLogVo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="4" column="5" selection-start-line="4" selection-start-column="5" selection-end-line="4" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/src/main/java/com/scc/log/annotation/LogRecordAOP.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1890">
-          <caret line="74" column="1" selection-start-line="14" selection-end-line="74" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/src/main/java/com/scc/controller/UserController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="630">
-          <caret line="28" column="58" selection-start-line="28" selection-start-column="58" selection-end-line="28" selection-end-column="58" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/src/main/java/com/scc/controller/VideoController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="630">
-          <caret line="30" column="20" selection-start-line="30" selection-start-column="20" selection-end-line="30" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1800">
-          <caret line="60" column="19" selection-start-line="60" selection-start-column="19" selection-end-line="60" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://D:/repository3/commons-lang/commons-lang/2.6/commons-lang-2.6.jar!/org/apache/commons/lang/StringUtils.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="129">
@@ -977,9 +1063,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1470">
           <caret line="64" column="52" selection-end-line="213" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -987,23 +1070,373 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="3150">
           <caret line="108" column="52" selection-start-line="108" selection-start-column="52" selection-end-line="108" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/eurekaserver/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="750">
+          <caret line="25" column="44" selection-start-line="25" selection-start-column="12" selection-end-line="25" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/video/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="8" column="43" selection-start-line="8" selection-start-column="39" selection-end-line="8" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/redis/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="55" column="8" selection-start-line="55" selection-start-column="8" selection-end-line="70" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/redis/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1080">
+          <caret line="36" lean-forward="true" selection-end-line="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/redenvelopeluckydraw/src/main/java/com/scc/redenvelopeluckydraw/controller/RedisController.java" />
+    <entry file="file://$PROJECT_DIR$/redis/src/main/java/com/scc/controller/RedisController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="20" column="5" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="9" column="13" selection-start-line="4" selection-start-column="4" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/src/main/java/com/scc/controller/OrderController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/redis/src/main/java/com/scc/service/impl/VideoService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="417">
+          <caret line="46" column="49" selection-start-line="46" selection-start-column="12" selection-end-line="46" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/repository3/com/baomidou/mybatis-plus-extension/3.1.1/mybatis-plus-extension-3.1.1.jar!/com/baomidou/mybatisplus/extension/service/impl/ServiceImpl.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="201">
+          <caret line="68" column="19" selection-start-line="68" selection-start-column="19" selection-end-line="68" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/redenvelopeluckydraw/src/main/java/com/scc/redpac/dao/RedPacketInfoDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="6" selection-start-line="6" selection-end-line="6" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/redenvelopeluckydraw/src/main/java/com/scc/redpac/dao/RedPacketRecordDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="6" selection-start-column="6" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/repository3/com/baomidou/mybatis-plus-core/3.1.1/mybatis-plus-core-3.1.1.jar!/com/baomidou/mybatisplus/core/conditions/Wrapper.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="17" column="24" selection-start-line="17" selection-start-column="24" selection-end-line="17" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/repository3/com/baomidou/mybatis-plus-core/3.1.1/mybatis-plus-core-3.1.1.jar!/com/baomidou/mybatisplus/core/toolkit/Wrappers.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-990">
+          <caret line="16" column="19" selection-start-line="16" selection-start-column="19" selection-end-line="16" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/repository3/com/baomidou/mybatis-plus-core/3.1.1/mybatis-plus-core-3.1.1.jar!/com/baomidou/mybatisplus/core/mapper/BaseMapper.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="214">
+          <caret line="26" column="18" selection-start-line="26" selection-start-column="8" selection-end-line="26" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/repository3/org/springframework/data/spring-data-redis/2.3.3.RELEASE/spring-data-redis-2.3.3.RELEASE.jar!/org/springframework/data/redis/core/RedisTemplate.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-630">
+          <caret line="47" column="13" selection-start-line="47" selection-start-column="13" selection-end-line="47" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/repository3/org/springframework/data/spring-data-redis/2.3.3.RELEASE/spring-data-redis-2.3.3.RELEASE.jar!/org/springframework/data/redis/serializer/RedisSerializer.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="291">
+          <caret line="15" column="39" selection-start-line="15" selection-start-column="35" selection-end-line="15" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/repository3/org/springframework/data/spring-data-redis/2.3.3.RELEASE/spring-data-redis-2.3.3.RELEASE.jar!/org/springframework/data/redis/connection/RedisStringCommands.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="57" column="9" selection-start-line="57" selection-start-column="9" selection-end-line="57" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/redenvelopeluckydraw/src/main/java/com/scc/redpac/config/RedisConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="19" column="24" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/src/main/java/com/scc/fegin/UserFegin.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="6" selection-start-line="6" selection-end-line="6" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/user/src/main/java/com/scc/controller/UserController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="22" column="37" selection-start-line="22" selection-start-column="25" selection-end-line="22" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/redenvelopeluckydraw/src/main/java/com/scc/redpac/controller/RedPacketController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="461">
+          <caret line="44" column="5" selection-start-line="13" selection-start-column="4" selection-end-line="44" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/src/main/java/com/scc/domain/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/src/main/java/com/scc/fegin/OrderFegin.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="11" selection-start-column="11" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/src/main/java/com/scc/controller/UserController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-60">
+          <caret line="11" selection-start-line="11" selection-end-line="12" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/src/main/java/com/scc/fegin/RedisFegin.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="8" column="17" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/src/main/java/com/scc/fegin/RedPacketFegin.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="461">
+          <caret line="35" column="103" selection-start-line="11" selection-start-column="3" selection-end-line="35" selection-end-column="103" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/src/main/java/com/scc/controller/RedPacketController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="12" column="36" selection-start-line="12" selection-start-column="36" selection-end-line="12" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Program Files/Java8/jdk1.8.0_181/src.zip!/java/util/concurrent/atomic/AtomicLong.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="156">
+          <caret line="53" column="13" selection-start-line="53" selection-start-column="13" selection-end-line="53" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/redenvelopeluckydraw/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="208">
+          <caret line="7" column="21" lean-forward="true" selection-start-line="7" selection-start-column="21" selection-end-line="7" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/redenvelopeluckydraw/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="454">
+          <caret line="92" column="19" selection-start-line="92" selection-start-column="19" selection-end-line="92" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/repository3/org/springframework/spring-core/5.2.8.RELEASE/spring-core-5.2.8.RELEASE.jar!/org/springframework/cglib/proxy/MethodProxy.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="181">
+          <caret line="105" column="44" lean-forward="true" selection-start-line="105" selection-start-column="44" selection-end-line="105" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/redenvelopeluckydraw/src/main/java/com/scc/redpac/service/IRedPacketService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="9" column="29" selection-start-line="9" selection-start-column="29" selection-end-line="9" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/redenvelopeluckydraw/src/main/java/com/scc/redpac/RedPacketApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="6" column="33" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/redenvelopeluckydraw/src/main/java/com/scc/redpac/domain/RedPacketRecord.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="20" column="16" selection-start-line="20" selection-start-column="16" selection-end-line="20" selection-end-column="16" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/eurekaserver/pom.xml">
+    <entry file="jar://D:/Program Files/Java8/jdk1.8.0_181/src.zip!/java/lang/Math.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="25" column="44" lean-forward="true" selection-start-line="25" selection-start-column="12" selection-end-line="25" selection-end-column="44" />
+        <state relative-caret-position="83">
+          <caret line="745" column="59" selection-start-line="745" selection-start-column="59" selection-end-line="745" selection-end-column="59" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/video/src/main/resources/application.yml">
+    <entry file="file://$PROJECT_DIR$/redenvelopeluckydraw/src/main/java/com/scc/redpac/domain/RedPacketInfo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="10" column="24" selection-start-line="10" selection-start-column="16" selection-end-line="10" selection-end-column="24" />
+        <state relative-caret-position="387">
+          <caret line="20" column="16" selection-start-line="20" selection-start-column="16" selection-end-line="20" selection-end-column="16" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/redenvelopeluckydraw/src/test/java/com/scc/redpac/Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="235">
+          <caret line="23" column="9" lean-forward="true" selection-start-line="23" selection-start-column="9" selection-end-line="23" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/redenvelopeluckydraw/src/test/java/com/scc/redpac/TestGet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="191">
+          <caret line="18" column="57" selection-start-line="18" selection-start-column="57" selection-end-line="18" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Program Files/Java8/jdk1.8.0_181/src.zip!/java/lang/Long.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="342" column="25" selection-start-line="342" selection-start-column="25" selection-end-line="342" selection-end-column="25" />
+          <folding>
+            <element signature="e#12188#12189#0" expanded="true" />
+            <element signature="e#12234#12235#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/redenvelopeluckydraw/src/main/java/com/scc/redpac/utils/SnowflakeIdWorker.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4050">
+          <caret line="135" column="34" selection-start-line="135" selection-start-column="34" selection-end-line="135" selection-end-column="34" />
+          <folding>
+            <element signature="e#4326#4327#0" expanded="true" />
+            <element signature="e#4375#4376#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Program Files/Java8/jdk1.8.0_181/src.zip!/java/util/Random.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="118">
+          <caret line="387" column="55" selection-start-line="387" selection-start-column="47" selection-end-line="387" selection-end-column="55" />
+          <folding>
+            <element signature="e#3504#3505#0" expanded="true" />
+            <element signature="e#3562#3563#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Program Files/Java8/jdk1.8.0_181/src.zip!/java/util/concurrent/ThreadLocalRandom.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="348" column="22" selection-start-line="348" selection-start-column="15" selection-end-line="348" selection-end-column="22" />
+          <folding>
+            <element signature="e#11961#11962#0" expanded="true" />
+            <element signature="e#12001#12002#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/redenvelopeluckydraw/src/test/java/com/scc/redpac/TestSave.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="15" column="26" lean-forward="true" selection-start-line="15" selection-start-column="26" selection-end-line="15" selection-end-column="26" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/redenvelopeluckydraw/src/test/java/com/scc/redpac/Test1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="235">
+          <caret line="9" column="50" selection-start-line="9" selection-start-column="25" selection-end-line="9" selection-end-column="50" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/redenvelopeluckydraw/src/test/java/com/scc/redpac/Test3.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="9" column="45" selection-start-line="9" selection-start-column="37" selection-end-line="9" selection-end-column="45" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/redenvelopeluckydraw/src/test/java/com/scc/redpac/TestUpdate.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="130">
+          <caret line="24" column="38" lean-forward="true" selection-start-line="24" selection-start-column="38" selection-end-line="24" selection-end-column="38" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/redenvelopeluckydraw/src/main/java/com/scc/redpac/service/impl/RedPacketService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="259">
+          <caret line="132" column="58" selection-start-line="132" selection-start-column="46" selection-end-line="132" selection-end-column="58" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

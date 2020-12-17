@@ -6,6 +6,7 @@
       <module fileurl="file://$PROJECT_DIR$/eurekaserver/eurekaserver.iml" filepath="$PROJECT_DIR$/eurekaserver/eurekaserver.iml" />
       <module fileurl="file://$PROJECT_DIR$/order/order (2).iml" filepath="$PROJECT_DIR$/order/order (2).iml" />
       <module fileurl="file://$PROJECT_DIR$/rabbitMQ/rabbitMQ.iml" filepath="$PROJECT_DIR$/rabbitMQ/rabbitMQ.iml" />
+      <module fileurl="file://$PROJECT_DIR$/redenvelopeluckydraw/redenvelopeluckydraw.iml" filepath="$PROJECT_DIR$/redenvelopeluckydraw/redenvelopeluckydraw.iml" />
       <module fileurl="file://$PROJECT_DIR$/redis/redis.iml" filepath="$PROJECT_DIR$/redis/redis.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/springCloudDemo.iml" filepath="$PROJECT_DIR$/.idea/springCloudDemo.iml" />
       <module fileurl="file://$PROJECT_DIR$/user/user.iml" filepath="$PROJECT_DIR$/user/user.iml" />
